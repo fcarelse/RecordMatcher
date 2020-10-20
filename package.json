@@ -1,0 +1,34 @@
+{
+  "name": "recordmatcher",
+  "version": "0.0.1",
+  "description": "Record Matcher System for RecordArray objects using RecordSchema objects",
+  "main": "src/RecordMatcher.js",
+  "scripts": {
+    "test": "npx mocha",
+		"docs":"npx http-server docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcarelse/RecordMatcher.git"
+  },
+  "keywords": [
+		"recordmatcher",
+		"recordschema",
+    "recordarray",
+    "array",
+    "javascript",
+    "records"
+  ],
+  "author": "Francis Carelse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fcarelse/RecordMatcher/issues"
+  },
+  "homepage": "https://github.com/fcarelse/RecordMatcher#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.5.0",
+    "mocha": "^7.0.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"parser": "babel-eslint",
+  "extends": ["prettier"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [0],
+		"indent": ["error", "tab"]
+  }
+}
